@@ -26,6 +26,27 @@
     margin: auto;
   }
 
+  /* Tablet: 3 cards per row */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile: 2 cards per row */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small Mobile: 1 card per row */
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
   .card {
     background: #1e1e1e;
     border: 1px solid #333;

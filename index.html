@@ -104,7 +104,11 @@
 
   .card.owned h3,
 .card.owned p {
-  color: gold;
+  color: gold; /* fallback */
+  background: linear-gradient(45deg, #ffd700, #ffac33, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .card h3,

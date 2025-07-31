@@ -3,143 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Favorite Pokémon</title>
-  <style>
-  body {
-    font-family: sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #f5f5f5;
-    padding: 20px;
-  }
-
-  h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2em;
-    color: #f5f5f5;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* exactly 6 cards per row */
-    gap: 20px;
-    max-width: 1400px;
-    margin: auto;
-  }
-
-  /* Tablet: 3 cards per row */
-@media (max-width: 992px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile: 2 cards per row */
-@media (max-width: 600px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Small Mobile: 1 card per row */
-@media (max-width: 400px) {
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-  .card {
-    background: #1e1e1e;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.2s;
-  }
-
-  .card:hover {
-    transform: scale(1.02);
-  }
-
-  .card img {
-    max-width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-
-  .card h3 {
-    margin: 10px 0 5px;
-    font-size: 1.1em;
-    color: #ffffff;
-  }
-
-  .card p {
-    margin: 0;
-    font-size: 0.95em;
-    color: #aaaaaa;
-  }
-
-  .card.no-image .placeholder {
-    width: 100%;
-    height: 250px;
-    background-color: #2a2a2a;
-    border: 2px dashed #555;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #888;
-    font-style: italic;
-    font-size: 1em;
-  }
-
-  .card.owned {
-    border: 3px solid gold;
-    box-shadow: 0 0 10px gold;
-  }
-
-  .card.owned.no-image .placeholder {
-    border: 3px dashed gold;
-    background-color: #2a2a00;
-    color: gold;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    flex-direction: column;
-  }
-
-  .modal.hidden {
-    display: none;
-  }
-
-  .card.owned h3,
-.card.owned p {
-  color: gold; /* fallback */
-  background: linear-gradient(45deg, #ffd700, #ffac33, #ffd700);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.card h3,
-.card p {
-  color: red;
-}
-
-</style>
-
-
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>My Favorite Pokémon</h1>
@@ -937,6 +801,566 @@
         <p>#0151</p>
     </div>
   </div>
+
+
+
+  <h1>Generation 2</h1>
+  <div class="grid">
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Chikorita</h3>
+        <p>#0152</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Bayleef</h3>
+        <p>#0153</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Meganium</h3>
+        <p>#0154</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Cyndaquil</h3>
+        <p>#0155</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Quilava</h3>
+        <p>#0156</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Typhlosion</h3>
+        <p>#0157</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Totodile</h3>
+        <p>#0158</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Croconaw</h3>
+        <p>#0159</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Feraligatr</h3>
+        <p>#0160</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Sentret</h3>
+        <p>#0161</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Furret</h3>
+        <p>#0162</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Hoothoot</h3>
+        <p>#0163</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Knocktowl</h3>
+        <p>#0164</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ledyba</h3>
+        <p>#0165</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ledian</h3>
+        <p>#0166</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Spinarak</h3>
+        <p>#0167</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ariados</h3>
+        <p>#0168</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Crobat</h3>
+        <p>#0169</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Chinchou</h3>
+        <p>#0170</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Lanturn</h3>
+        <p>#0171</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Pichu</h3>
+        <p>#0172</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Cleffa</h3>
+        <p>#0173</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Igglybuff</h3>
+        <p>#0174</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Togepi</h3>
+        <p>#0175</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Togetic</h3>
+        <p>#0176</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Natu</h3>
+        <p>#0177</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Xatu</h3>
+        <p>#0178</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Mareep</h3>
+        <p>#0179</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Flaffy</h3>
+        <p>#0180</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ampharos</h3>
+        <p>#0181</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Bellossom</h3>
+        <p>#0182</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Marill</h3>
+        <p>#0183</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Azumarill</h3>
+        <p>#0184</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Sudowoodo</h3>
+        <p>#0185</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Politoed</h3>
+        <p>#0186</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Hoppip</h3>
+        <p>#0187</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Skiploom</h3>
+        <p>#0188</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Jumpluff</h3>
+        <p>#0189</p>
+    </div>
+
+     <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Aipom</h3>
+        <p>#0190</p>
+    </div>
+
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Sunkern</h3>
+        <p>#0191</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Sunflora</h3>
+        <p>#0192</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Yanma</h3>
+        <p>#0193</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Wooper</h3>
+        <p>#0194</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Quagsire</h3>
+        <p>#0195</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Espeon</h3>
+        <p>#0196</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Umbreon</h3>
+        <p>#0197</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Murkrow</h3>
+        <p>#0198</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Slowking</h3>
+        <p>#0199</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Misdreavus</h3>
+        <p>#0200</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Unown</h3>
+        <p>#0201</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Wobbuffet</h3>
+        <p>#0202</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Girafarig</h3>
+        <p>#0203</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Pineco</h3>
+        <p>#0204</p>
+    </div>
+    <div class="card no-image"> 
+        <div class="placeholder">No Image</div>
+        <h3>Forretress</h3>
+        <p>#0205</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Dunsparce</h3>
+        <p>#0206</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Gligar</h3>
+        <p>#0207</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Steelix</h3>
+        <p>#0208</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Snubbull</h3>
+        <p>#0209</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Granbull</h3>
+        <p>#0210</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Qwilfish</h3>
+        <p>#0211</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Scizor</h3>
+        <p>#0212</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Shuckle</h3>
+        <p>#0213</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Heracross</h3>
+        <p>#0214</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Sneasel</h3>
+        <p>#0215</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Teddiursa</h3>
+        <p>#0216</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ursaring</h3>
+        <p>#0217</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Slugma</h3>
+        <p>#0218</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ursaring</h3>
+        <p>#0217</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Slugma</h3>
+        <p>#0218</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Magcargo</h3>
+        <p>#0219</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Swinub</h3>
+        <p>#0220</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Piloswine</h3>
+        <p>#0221</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Corsola</h3>
+        <p>#0222</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Remoraid</h3>
+        <p>#0223</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Octillery</h3>
+        <p>#0224</p>
+    </div> 
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Delibird</h3>
+        <p>#0225</p>
+    </div>
+    <div class="card no-image"> 
+        <div class="placeholder">No Image</div>
+        <h3>Mantine</h3>
+        <p>#0226</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Skarmory</h3>
+        <p>#0227</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Houndour</h3>
+        <p>#0228</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Houndoom</h3>
+        <p>#0229</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Kingdra</h3>
+        <p>#0230</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Kingdra</h3>
+        <p>#0230</p>
+    </div> 
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Phanpy</h3>
+        <p>#0231</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Donphan</h3>
+        <p>#0232</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Porygon2</h3>
+        <p>#0233</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Stantler</h3>
+        <p>#0234</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Smeargle</h3>
+        <p>#0235</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Tyrogue</h3>
+        <p>#0236</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Hitmontop</h3>
+        <p>#0237</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Smoochum</h3>
+        <p>#0238</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Elekid</h3>
+        <p>#0239</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Magby</h3>
+        <p>#0240</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Miltank</h3>
+        <p>#0241</p>
+    </div> 
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Blissey</h3>
+        <p>#0242</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Raikou</h3>
+        <p>#0243</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Entei</h3>
+        <p>#0244</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Suicune</h3>
+        <p>#0245</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Larvitar</h3>
+        <p>#0246</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Pupitar</h3>
+        <p>#0247</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Tyranitar</h3>
+        <p>#0248</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Lugia</h3>
+        <p>#0249</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Ho-Oh</h3>
+        <p>#0250</p>
+    </div>
+    <div class="card no-image">
+        <div class="placeholder">No Image</div>
+        <h3>Celebi</h3>
+        <p>#0251</p>
+    </div>
 </body>
 <!-- Modal -->
 <!-- Image Modal Viewer -->

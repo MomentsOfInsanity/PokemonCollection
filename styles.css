@@ -130,3 +130,5 @@ body {
 .card p {
   color: red;
 }
+
+.modal { touch-action: pan-y; } /* allow vertical scroll gestures, we handle horizontal */

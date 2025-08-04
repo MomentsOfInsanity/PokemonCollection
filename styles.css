@@ -153,6 +153,8 @@ body {
 #modalImg.enter-from-right { transform: translateX( 28%) scale(1.02); opacity: 0; }
 
 /* Helps mobile swipes feel right (vertical scroll allowed, we handle horizontal) */
-.modal { touch-action: pan-y; }
+.modal { touch-action: pan-y; 
+   overscroll-behavior: contain;     /* prevent background scroll bounce */
+}
 
 

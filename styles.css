@@ -131,4 +131,28 @@ body {
   color: red;
 }
 
-.modal { touch-action: pan-y; } /* allow vertical scroll gestures, we handle horizontal */
+/* Smooth Tinder-like slide */
+/* Smooth Tinder-like slide with scale & fade */
+#modalImg {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  transition:
+    transform 260ms cubic-bezier(.2,.8,.2,1),
+    opacity   260ms cubic-bezier(.2,.8,.2,1);
+  will-change: transform, opacity;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  border-radius: 10px;
+}
+
+/* Leaving the screen */
+#modalImg.slide-out-left  { transform: translateX(-40%) rotate(-5deg) scale(.96); opacity: 0; }
+#modalImg.slide-out-right { transform: translateX( 40%) rotate( 5deg) scale(.96); opacity: 0; }
+
+/* Entering from a side (start slightly zoomed & offset, then transition to center) */
+#modalImg.enter-from-left  { transform: translateX(-28%) scale(1.02); opacity: 0; }
+#modalImg.enter-from-right { transform: translateX( 28%) scale(1.02); opacity: 0; }
+
+/* Helps mobile swipes feel right (vertical scroll allowed, we handle horizontal) */
+.modal { touch-action: pan-y; }
+
+

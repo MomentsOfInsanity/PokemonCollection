@@ -1420,6 +1420,34 @@
     // Safety: force modal hidden on load
     modal.style.display = 'none';
   });
+
+  // Swipe support
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    modal.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    }, false);
+
+    modal.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipeGesture();
+    }, false);
+
+    function handleSwipeGesture() {
+    const swipeThreshold = 50; // minimum distance for swipe
+
+    if (touchEndX < touchStartX - swipeThreshold) {
+        // Swipe left → show next
+        nextBtn.click();
+    }
+
+    if (touchEndX > touchStartX + swipeThreshold) {
+        // Swipe right → show previous
+        prevBtn.click();
+    }
+    }
+
 </script>
 
 

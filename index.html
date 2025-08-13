@@ -2180,17 +2180,41 @@
 
     // --- Swipe support on modal ---
     function handleSwipeGesture() {
-      const dx = touchEndX - touchStartX;
-      const dy = Math.abs(touchEndY - touchStartY);
-      const swipeThreshold = 50;
-      const verticalTolerance = 40;
+    const dx = touchEndX - touchStartX;
+        const dy = Math.abs(touchEndY - touchStartY);
+        const swipeThreshold = 50;
+        const verticalTolerance = 40;
 
-      if (Math.abs(dx) > swipeThreshold && dy < verticalTolerance) {
-        justSwiped = true;
-        setTimeout(() => (justSwiped = false), 250);
-        if (dx < 0) navigate(+1); else navigate(-1);
-      }
+        if (Math.abs(dx) > swipeThreshold && dy < verticalTolerance) {
+            justSwiped = true;
+            setTimeout(() => (justSwiped = false), 250);
+
+            const isLeft = dx < 0;
+            const outClass = isLeft ? 'slide-out-left' : 'slide-out-right';
+            const inClass = isLeft ? 'enter-from-right' : 'enter-from-left';
+
+            // Animate out
+            modalImg.classList.add(outClass);
+
+            setTimeout(() => {
+            modalImg.classList.remove(outClass);
+
+            // Pre-set entry style before image changes
+            modalImg.classList.add(inClass);
+
+            // Now navigate
+            navigate(isLeft ? +1 : -1);
+
+            // Then animate in
+            setTimeout(() => {
+                modalImg.classList.remove(inClass);
+            }, 200);
+
+            }, 150); // Match exit animation
+        }
     }
+
+
 
     modal.addEventListener('touchstart', (e) => {
       const t = e.changedTouches[0];

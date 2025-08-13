@@ -30,14 +30,14 @@ body {
 /* With this (3 cards per row on modern phones) */
 @media (max-width: 600px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 /* Optional: add a new breakpoint if you want 2 or 1 card per row on *very* narrow screens like old Androids */
 @media (max-width: 400px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -299,3 +299,18 @@ body {
 }
 
 
+.card {
+  max-width: 360px;
+  margin: auto; /* centers each card in the grid cell */
+}
+.grid {
+  justify-items: center;
+}
+@media (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
+}
+.card h3, .card p {
+  color: #f5f5f5;
+}

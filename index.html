@@ -6,9 +6,37 @@
   <link rel="stylesheet" href="styles.css?v=1.0">
 </head>
 <body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">Pokémon Collection</div>
+    <button class="hamburger" id="hamburgerBtn">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#gen1">Gen 1</a></li>
+      <li><a href="#gen2">Gen 2</a></li>
+      <li><a href="#gen3">Gen 3</a></li>
+      <li><a href="#gen4">Gen 4</a></li>
+      <li><a href="#gen5">Gen 5</a></li>
+      <li><a href="#gen6">Gen 6</a></li>
+      <li><a href="#gen7">Gen 7</a></li>
+      <li><a href="#gen8">Gen 8</a></li>
+      <li><a href="#gen9">Gen 9</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="search-container">
+  <input type="text" id="cardSearch" placeholder="Search Pokémon..." />
+</div>
+
+
+
+
+
   <h1>My Favorite Pokémon</h1>
 
-  <h1>Generation 1</h1>
+  <h1 id="gen1">Generation 1</h1>
   <div class="grid">
     <!-- <div class="card">
       <img src="images/001-bulbasaur.jpg" alt="Bulbasaur">
@@ -804,7 +832,7 @@
 
 
 
-<h1>Generation 2</h1>
+<h1 id="gen2">Generation 2</h1>
 <div class="grid">
 
     <div class="card ">
@@ -1348,7 +1376,7 @@
     </div>
 </div>
 
-<h1>Generation 3</h1>
+<h1 id="gen3">Generation 3</h1>
 <div class="grid">
 
     <div class="card ">
@@ -2179,5 +2207,76 @@
 
     // Safety: ensure hidden on load
     modal.style.display = 'none';
+  });
+</script>
+
+<script>
+  document.getElementById('hamburgerBtn').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('active');
+  });
+</script>
+<script>
+  // Highlight active generation section in nav
+  const sections = document.querySelectorAll('h1[id^="gen"]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  window.addEventListener('scroll', () => {
+    let currentGen = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if (scrollY >= sectionTop) {
+        currentGen = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${currentGen}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  const searchInput = document.getElementById("cardSearch");
+
+  searchInput.addEventListener("input", function () {
+    const filter = this.value.toLowerCase();
+    const cards = document.querySelectorAll(".card");
+    const headings = document.querySelectorAll('h1[id^="gen"]');
+
+    // Show/hide cards
+    cards.forEach(card => {
+      const name = card.querySelector("h3")?.textContent.toLowerCase() || "";
+      const number = card.querySelector("p")?.textContent.toLowerCase() || "";
+      const matches = name.includes(filter) || number.includes(filter);
+      card.style.display = matches ? "" : "none";
+    });
+
+    // Show/hide each generation heading
+    headings.forEach(heading => {
+      let current = heading.nextElementSibling;
+      let foundVisibleCard = false;
+
+      while (current && !(current.tagName === "H1" && current.id.startsWith("gen"))) {
+        // Search inside grids too
+        if (current.classList.contains("card") && current.style.display !== "none") {
+          foundVisibleCard = true;
+        }
+
+        // If it's a grid container, check its children
+        if (current.classList.contains("grid")) {
+          const visibleCards = current.querySelectorAll(".card:not([style*='display: none'])");
+          if (visibleCards.length > 0) {
+            foundVisibleCard = true;
+          }
+        }
+
+        current = current.nextElementSibling;
+      }
+
+      heading.style.display = foundVisibleCard ? "" : "none";
+    });
   });
 </script>

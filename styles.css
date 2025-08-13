@@ -134,14 +134,24 @@ body {
 /* Smooth Tinder-like slide */
 /* Smooth Tinder-like slide with scale & fade */
 #modalImg {
+  width: 320px;             /* fixed width for consistent size */
+  height: auto;             /* maintain aspect ratio */
+  max-width: 90vw;          /* still responsive on smaller phones */
+  max-height: 80vh;         /* prevent overflow on short screens */
   transform: translateX(0) scale(1);
   opacity: 1;
-  transition:
-    transform 260ms cubic-bezier(.2,.8,.2,1),
-    opacity   260ms cubic-bezier(.2,.8,.2,1);
+  transition: transform 260ms ease, opacity 260ms ease;
   will-change: transform, opacity;
   box-shadow: 0 10px 30px rgba(0,0,0,0.45);
   border-radius: 10px;
+}
+
+#modalImg {
+  image-rendering: auto;        /* default */
+  /* Alternative if you're using pixel art:
+     image-rendering: crisp-edges;
+     image-rendering: -webkit-optimize-contrast;
+  */
 }
 
 /* Leaving the screen */
@@ -158,3 +168,104 @@ body {
 }
 
 
+/* Nav Bar Styles */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #333;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.nav-brand {
+  color: gold;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links li a:hover {
+  color: gold;
+}
+
+.nav-links a.active {
+  color: gold;
+  font-weight: bold;
+  border-bottom: 2px solid gold;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Hamburger (hidden by default) */
+.hamburger {
+  font-size: 1.5rem;
+  background: none;
+  color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+/* Mobile view: show hamburger, hide full nav */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    border-top: 1px solid #333;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+.search-container {
+  max-width: 600px;
+  margin: 30px auto 20px;
+  text-align: center;
+}
+
+#cardSearch {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}

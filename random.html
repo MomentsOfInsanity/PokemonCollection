@@ -1,0 +1,65 @@
+<head>
+  <title>Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .fade-container {
+      opacity: 1;
+      transition: opacity 0.8s ease-in-out;
+    }
+
+    .fade-container.fade-out {
+      opacity: 0;
+    }
+
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .centered-card {
+      max-width: 400px;
+      margin: 40px auto;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .card h3, .card p {
+      margin: 10px 0;
+      color: #fff;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <h1>Showcase</h1>
+  <div id="randomCardContainer" class="fade-container centered-card">
+    <!-- Card will load here -->
+  </div>
+
+  <script src="random.js"></script>
+  <script>
+    // Add fade out before reload
+    setTimeout(() => {
+      const container = document.getElementById('randomCardContainer');
+      container.classList.add('fade-out');
+
+      setTimeout(() => {
+        location.reload();
+      }, 800); // Wait for fade to complete before reload
+    }, 300000); // 60s = 1 min
+  </script>
+</body>

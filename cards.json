@@ -3892,5 +3892,1545 @@
         "name": "Genesect",
         "image": "images/0649-genesect.jpg",
         "gen": "Gen 5"
+    },
+    {
+        "id": "0650",
+        "name": "Chespin",
+        "image": "images/0650-chespin.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0651",
+        "name": "Quilladin",
+        "image": "images/0651-quilladin.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0652",
+        "name": "Chesnaught",
+        "image": "images/0652-chesnaught.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0653",
+        "name": "Fennekin",
+        "image": "images/0653-fennekin.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0654",
+        "name": "Braixen",
+        "image": "images/0654-braixen.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0655",
+        "name": "Delphox",
+        "image": "images/0655-delphox.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0656",
+        "name": "Froakie",
+        "image": "images/0656-froakie.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0657",
+        "name": "Frogadier",
+        "image": "images/0657-frogadier.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0658",
+        "name": "Greninja",
+        "image": "images/0658-greninja.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0659",
+        "name": "Bunnelby",
+        "image": "images/0659-bunnelby.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0660",
+        "name": "Diggersby",
+        "image": "images/0660-diggersby.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0661",
+        "name": "Fletchling",
+        "image": "images/0661-fletchling.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0662",
+        "name": "Fletchinder",
+        "image": "images/0662-fletchinder.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0663",
+        "name": "Talonflame",
+        "image": "images/0663-talonflame.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0664",
+        "name": "Scatterbug",
+        "image": "images/0664-scatterbug.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0665",
+        "name": "Spewpa",
+        "image": "images/0665-spewpa.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0666",
+        "name": "Vivillon",
+        "image": "images/0666-vivillon.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0667",
+        "name": "Litleo",
+        "image": "images/0667-litleo.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0668",
+        "name": "Pyroar",
+        "image": "images/0668-pyroar.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0669",
+        "name": "Flabébé",
+        "image": "images/0669-flabebe.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0670",
+        "name": "Floette",
+        "image": "images/0670-floette.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0671",
+        "name": "Florges",
+        "image": "images/0671-florges.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0672",
+        "name": "Skiddo",
+        "image": "images/0672-skiddo.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0673",
+        "name": "Gogoat",
+        "image": "images/0673-gogoat.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0674",
+        "name": "Pancham",
+        "image": "images/0674-pancham.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0675",
+        "name": "Pangoro",
+        "image": "images/0675-pangoro.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0676",
+        "name": "Furfrou",
+        "image": "images/0676-furfrou.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0677",
+        "name": "Espurr",
+        "image": "images/0677-espurr.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0678",
+        "name": "Meowstic",
+        "image": "images/0678-meowstic.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0679",
+        "name": "Honedge",
+        "image": "images/0679-honedge.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0680",
+        "name": "Doublade",
+        "image": "images/0680-doublade.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0681",
+        "name": "Aegislash",
+        "image": "images/0681-aegislash.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0682",
+        "name": "Spritzee",
+        "image": "images/0682-spritzee.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0683",
+        "name": "Aromatisse",
+        "image": "images/0683-aromatisse.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0684",
+        "name": "Swirlix",
+        "image": "images/0684-swirlix.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0685",
+        "name": "Slurpuff",
+        "image": "images/0685-slurpuff.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0686",
+        "name": "Inkay",
+        "image": "images/0686-inkay.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0687",
+        "name": "Malamar",
+        "image": "images/0687-malamar.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0688",
+        "name": "Binacle",
+        "image": "images/0688-binacle.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0689",
+        "name": "Barbaracle",
+        "image": "images/0689-barbaracle.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0690",
+        "name": "Skrelp",
+        "image": "images/0690-skrelp.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0691",
+        "name": "Dragalge",
+        "image": "images/0691-dragalge.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0692",
+        "name": "Clauncher",
+        "image": "images/0692-clauncher.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0693",
+        "name": "Clawitzer",
+        "image": "images/0693-clawitzer.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0694",
+        "name": "Helioptile",
+        "image": "images/0694-helioptile.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0695",
+        "name": "Heliolisk",
+        "image": "images/0695-heliolisk.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0696",
+        "name": "Tyrunt",
+        "image": "images/0696-tyrunt.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0697",
+        "name": "Tyrantrum",
+        "image": "images/0697-tyrantrum.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0698",
+        "name": "Amaura",
+        "image": "images/0698-amaura.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0699",
+        "name": "Aurorus",
+        "image": "images/0699-aurorus.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0700",
+        "name": "Sylveon",
+        "image": "images/0700-sylveon.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0701",
+        "name": "Hawlucha",
+        "image": "images/0701-hawlucha.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0702",
+        "name": "Dedenne",
+        "image": "images/0702-dedenne.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0703",
+        "name": "Carbink",
+        "image": "images/0703-carbink.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0704",
+        "name": "Goomy",
+        "image": "images/0704-goomy.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0705",
+        "name": "Sliggoo",
+        "image": "images/0705-sliggoo.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0706",
+        "name": "Goodra",
+        "image": "images/0706-goodra.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0707",
+        "name": "Klefki",
+        "image": "images/0707-klefki.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0708",
+        "name": "Phantump",
+        "image": "images/0708-phantump.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0709",
+        "name": "Trevenant",
+        "image": "images/0709-trevenant.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0710",
+        "name": "Pumpkaboo",
+        "image": "images/0710-pumpkaboo.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0711",
+        "name": "Gourgeist",
+        "image": "images/0711-gourgeist.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0712",
+        "name": "Bergmite",
+        "image": "images/0712-bergmite.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0713",
+        "name": "Avalugg",
+        "image": "images/0713-avalugg.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0714",
+        "name": "Noibat",
+        "image": "images/0714-noibat.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0715",
+        "name": "Noivern",
+        "image": "images/0715-noivern.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0716",
+        "name": "Xerneas",
+        "image": "images/0716-xerneas.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0717",
+        "name": "Yveltal",
+        "image": "images/0717-yveltal.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0718",
+        "name": "Zygarde",
+        "image": "images/0718-zygarde.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0719",
+        "name": "Diancie",
+        "image": "images/0719-diancie.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0720",
+        "name": "Hoopa",
+        "image": "images/0720-hoopa.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0721",
+        "name": "Volcanion",
+        "image": "images/0721-volcanion.jpg",
+        "gen": "Gen 6"
+    },
+    {
+        "id": "0722",
+        "name": "Rowlet",
+        "image": "images/0722-rowlet.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0723",
+        "name": "Dartrix",
+        "image": "images/0723-dartrix.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0724",
+        "name": "Decidueye",
+        "image": "images/0724-decidueye.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0725",
+        "name": "Litten",
+        "image": "images/0725-litten.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0726",
+        "name": "Torracat",
+        "image": "images/0726-torracat.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0727",
+        "name": "Incineroar",
+        "image": "images/0727-incineroar.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0728",
+        "name": "Popplio",
+        "image": "images/0728-popplio.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0729",
+        "name": "Brionne",
+        "image": "images/0729-brionne.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0730",
+        "name": "Primarina",
+        "image": "images/0730-primarina.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0731",
+        "name": "Pikipek",
+        "image": "images/0731-pikipek.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0732",
+        "name": "Trumbeak",
+        "image": "images/0732-trumbeak.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0733",
+        "name": "Toucannon",
+        "image": "images/0733-toucannon.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0734",
+        "name": "Yungoos",
+        "image": "images/0734-yungoos.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0735",
+        "name": "Gumshoos",
+        "image": "images/0735-gumshoos.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0736",
+        "name": "Grubbin",
+        "image": "images/0736-grubbin.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0737",
+        "name": "Charjabug",
+        "image": "images/0737-charjabug.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0738",
+        "name": "Vikavolt",
+        "image": "images/0738-vikavolt.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0739",
+        "name": "Crabrawler",
+        "image": "images/0739-crabrawler.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0740",
+        "name": "Crabominable",
+        "image": "images/0740-crabominable.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0741",
+        "name": "Oricorio",
+        "image": "images/0741-oricorio.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0742",
+        "name": "Cutiefly",
+        "image": "images/0742-cutiefly.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0743",
+        "name": "Ribombee",
+        "image": "images/0743-ribombee.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0744",
+        "name": "Rockruff",
+        "image": "images/0744-rockruff.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0745",
+        "name": "Lycanroc",
+        "image": "images/0745-lycanroc.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0746",
+        "name": "Wishiwashi",
+        "image": "images/0746-wishiwashi.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0747",
+        "name": "Mareanie",
+        "image": "images/0747-mareanie.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0748",
+        "name": "Toxapex",
+        "image": "images/0748-toxapex.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0749",
+        "name": "Mudbray",
+        "image": "images/0749-mudbray.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0750",
+        "name": "Mudsdale",
+        "image": "images/0750-mudsdale.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0751",
+        "name": "Dewpider",
+        "image": "images/0751-dewpider.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0752",
+        "name": "Araquanid",
+        "image": "images/0752-araquanid.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0753",
+        "name": "Fomantis",
+        "image": "images/0753-fomantis.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0754",
+        "name": "Lurantis",
+        "image": "images/0754-lurantis.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0755",
+        "name": "Morelull",
+        "image": "images/0755-morelull.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0756",
+        "name": "Shiinotic",
+        "image": "images/0756-shiinotic.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0757",
+        "name": "Salandit",
+        "image": "images/0757-salandit.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0758",
+        "name": "Salazzle",
+        "image": "images/0758-salazzle.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0759",
+        "name": "Stufful",
+        "image": "images/0759-stufful.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0760",
+        "name": "Bewear",
+        "image": "images/0760-bewear.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0761",
+        "name": "Bounsweet",
+        "image": "images/0761-bounsweet.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0762",
+        "name": "Steenee",
+        "image": "images/0762-steenee.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0763",
+        "name": "Tsareena",
+        "image": "images/0763-tsareena.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0764",
+        "name": "Comfey",
+        "image": "images/0764-comfey.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0765",
+        "name": "Oranguru",
+        "image": "images/0765-oranguru.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0766",
+        "name": "Passimian",
+        "image": "images/0766-passimian.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0767",
+        "name": "Wimpod",
+        "image": "images/0767-wimpod.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0768",
+        "name": "Golisopod",
+        "image": "images/0768-golisopod.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0769",
+        "name": "Sandygast",
+        "image": "images/0769-sandygast.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0770",
+        "name": "Palossand",
+        "image": "images/0770-palossand.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0771",
+        "name": "Pyukumuku",
+        "image": "images/0771-pyukumuku.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0772",
+        "name": "Type: Null",
+        "image": "images/0772-type-null.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0773",
+        "name": "Silvally",
+        "image": "images/0773-silvally.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0774",
+        "name": "Minior",
+        "image": "images/0774-minior.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0775",
+        "name": "Komala",
+        "image": "images/0775-komala.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0776",
+        "name": "Turtonator",
+        "image": "images/0776-turtonator.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0777",
+        "name": "Togedemaru",
+        "image": "images/0777-togedemaru.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0778",
+        "name": "Mimikyu",
+        "image": "images/0778-mimikyu.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0779",
+        "name": "Bruxish",
+        "image": "images/0779-bruxish.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0780",
+        "name": "Drampa",
+        "image": "images/0780-drampa.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0781",
+        "name": "Dhelmise",
+        "image": "images/0781-dhelmise.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0782",
+        "name": "Jangmo-o",
+        "image": "images/0782-jangmo-o.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0783",
+        "name": "Hakamo-o",
+        "image": "images/0783-hakamo-o.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0784",
+        "name": "Kommo-o",
+        "image": "images/0784-kommo-o.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0785",
+        "name": "Tapu Koko",
+        "image": "images/0785-tapu-koko.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0786",
+        "name": "Tapu Lele",
+        "image": "images/0786-tapu-lele.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0787",
+        "name": "Tapu Bulu",
+        "image": "images/0787-tapu-bulu.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0788",
+        "name": "Tapu Fini",
+        "image": "images/0788-tapu-fini.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0789",
+        "name": "Cosmog",
+        "image": "images/0789-cosmog.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0790",
+        "name": "Cosmoem",
+        "image": "images/0790-cosmoem.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0791",
+        "name": "Solgaleo",
+        "image": "images/0791-solgaleo.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0792",
+        "name": "Lunala",
+        "image": "images/0792-lunala.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0793",
+        "name": "Nihilego",
+        "image": "images/0793-nihilego.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0794",
+        "name": "Buzzwole",
+        "image": "images/0794-buzzwole.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0795",
+        "name": "Pheromosa",
+        "image": "images/0795-pheromosa.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0796",
+        "name": "Xurkitree",
+        "image": "images/0796-xurkitree.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0797",
+        "name": "Celesteela",
+        "image": "images/0797-celesteela.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0798",
+        "name": "Kartana",
+        "image": "images/0798-kartana.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0799",
+        "name": "Guzzlord",
+        "image": "images/0799-guzzlord.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0800",
+        "name": "Necrozma",
+        "image": "images/0800-necrozma.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0801",
+        "name": "Magearna",
+        "image": "images/0801-magearna.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0802",
+        "name": "Marshadow",
+        "image": "images/0802-marshadow.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0803",
+        "name": "Poipole",
+        "image": "images/0803-poipole.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0804",
+        "name": "Naganadel",
+        "image": "images/0804-naganadel.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0805",
+        "name": "Stakataka",
+        "image": "images/0805-stakataka.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0806",
+        "name": "Blacephalon",
+        "image": "images/0806-blacephalon.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0807",
+        "name": "Zeraora",
+        "image": "images/0807-zeraora.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0808",
+        "name": "Meltan",
+        "image": "images/0808-meltan.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0809",
+        "name": "Melmetal",
+        "image": "images/0809-melmetal.jpg",
+        "gen": "Gen 7"
+    },
+    {
+        "id": "0810",
+        "name": "Grookey",
+        "image": "images/0810-grookey.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0811",
+        "name": "Thwackey",
+        "image": "images/0811-thwackey.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0812",
+        "name": "Rillaboom",
+        "image": "images/0812-rillaboom.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0813",
+        "name": "Scorbunny",
+        "image": "images/0813-scorbunny.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0814",
+        "name": "Raboot",
+        "image": "images/0814-raboot.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0815",
+        "name": "Cinderace",
+        "image": "images/0815-cinderace.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0816",
+        "name": "Sobble",
+        "image": "images/0816-sobble.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0817",
+        "name": "Drizzile",
+        "image": "images/0817-drizzile.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0818",
+        "name": "Inteleon",
+        "image": "images/0818-inteleon.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0819",
+        "name": "Skwovet",
+        "image": "images/0819-skwovet.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0820",
+        "name": "Greedent",
+        "image": "images/0820-greedent.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0821",
+        "name": "Rookidee",
+        "image": "images/0821-rookidee.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0822",
+        "name": "Corvisquire",
+        "image": "images/0822-corvisquire.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0823",
+        "name": "Corviknight",
+        "image": "images/0823-corviknight.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0824",
+        "name": "Blipbug",
+        "image": "images/0824-blipbug.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0825",
+        "name": "Dottler",
+        "image": "images/0825-dottler.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0826",
+        "name": "Orbeetle",
+        "image": "images/0826-orbeetle.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0827",
+        "name": "Nickit",
+        "image": "images/0827-nickit.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0828",
+        "name": "Thievul",
+        "image": "images/0828-thievul.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0829",
+        "name": "Gossifleur",
+        "image": "images/0829-gossifleur.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0830",
+        "name": "Eldegoss",
+        "image": "images/0830-eldegoss.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0831",
+        "name": "Wooloo",
+        "image": "images/0831-wooloo.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0832",
+        "name": "Dubwool",
+        "image": "images/0832-dubwool.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0833",
+        "name": "Chewtle",
+        "image": "images/0833-chewtle.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0834",
+        "name": "Drednaw",
+        "image": "images/0834-drednaw.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0835",
+        "name": "Yamper",
+        "image": "images/0835-yamper.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0836",
+        "name": "Boltund",
+        "image": "images/0836-boltund.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0837",
+        "name": "Rolycoly",
+        "image": "images/0837-rolycoly.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0838",
+        "name": "Carkol",
+        "image": "images/0838-carkol.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0839",
+        "name": "Coalossal",
+        "image": "images/0839-coalossal.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0840",
+        "name": "Applin",
+        "image": "images/0840-applin.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0841",
+        "name": "Flapple",
+        "image": "images/0841-flapple.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0842",
+        "name": "Appletun",
+        "image": "images/0842-appletun.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0843",
+        "name": "Silicobra",
+        "image": "images/0843-silicobra.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0844",
+        "name": "Sandaconda",
+        "image": "images/0844-sandaconda.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0845",
+        "name": "Cramorant",
+        "image": "images/0845-cramorant.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0846",
+        "name": "Arrokuda",
+        "image": "images/0846-arrokuda.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0847",
+        "name": "Barraskewda",
+        "image": "images/0847-barraskewda.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0848",
+        "name": "Toxel",
+        "image": "images/0848-toxel.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0849",
+        "name": "Toxtricity",
+        "image": "images/0849-toxtricity.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0850",
+        "name": "Sizzlipede",
+        "image": "images/0850-sizzlipede.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0851",
+        "name": "Centiskorch",
+        "image": "images/0851-centiskorch.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0852",
+        "name": "Clobbopus",
+        "image": "images/0852-clobbopus.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0853",
+        "name": "Grapploct",
+        "image": "images/0853-grapploct.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0854",
+        "name": "Sinistea",
+        "image": "images/0854-sinistea.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0855",
+        "name": "Polteageist",
+        "image": "images/0855-polteageist.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0856",
+        "name": "Hatenna",
+        "image": "images/0856-hatenna.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0857",
+        "name": "Hattrem",
+        "image": "images/0857-hattrem.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0858",
+        "name": "Hatterene",
+        "image": "images/0858-hatterene.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0859",
+        "name": "Impidimp",
+        "image": "images/0859-impidimp.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0860",
+        "name": "Morgrem",
+        "image": "images/0860-morgrem.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0861",
+        "name": "Grimmsnarl",
+        "image": "images/0861-grimmsnarl.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0862",
+        "name": "Obstagoon",
+        "image": "images/0862-obstagoon.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0863",
+        "name": "Perrserker",
+        "image": "images/0863-perrserker.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0864",
+        "name": "Cursola",
+        "image": "images/0864-cursola.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0865",
+        "name": "Sirfetch'd",
+        "image": "images/0865-sirfetchd.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0866",
+        "name": "Mr. Rime",
+        "image": "images/0866-mrrime.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0867",
+        "name": "Runerigus",
+        "image": "images/0867-runerigus.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0868",
+        "name": "Milcery",
+        "image": "images/0868-milcery.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0869",
+        "name": "Alcremie",
+        "image": "images/0869-alcremie.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0870",
+        "name": "Falinks",
+        "image": "images/0870-falinks.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0871",
+        "name": "Pincurchin",
+        "image": "images/0871-pincurchin.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0872",
+        "name": "Snom",
+        "image": "images/0872-snom.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0873",
+        "name": "Frosmoth",
+        "image": "images/0873-frosmoth.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0874",
+        "name": "Stonjourner",
+        "image": "images/0874-stonjourner.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0875",
+        "name": "Eiscue",
+        "image": "images/0875-eiscue.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0876",
+        "name": "Indeedee",
+        "image": "images/0876-indeedee.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0877",
+        "name": "Morpeko",
+        "image": "images/0877-morpeko.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0878",
+        "name": "Cufant",
+        "image": "images/0878-cufant.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0879",
+        "name": "Copperajah",
+        "image": "images/0879-copperajah.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0880",
+        "name": "Dracozolt",
+        "image": "images/0880-dracozolt.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0881",
+        "name": "Arctozolt",
+        "image": "images/0881-arctozolt.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0882",
+        "name": "Dracovish",
+        "image": "images/0882-dracovish.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0883",
+        "name": "Arctovish",
+        "image": "images/0883-arctovish.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0884",
+        "name": "Duraludon",
+        "image": "images/0884-duraludon.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0885",
+        "name": "Dreepy",
+        "image": "images/0885-dreepy.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0886",
+        "name": "Drakloak",
+        "image": "images/0886-drakloak.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0887",
+        "name": "Dragapult",
+        "image": "images/0887-dragapult.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0888",
+        "name": "Zacian",
+        "image": "images/0888-zacian.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0889",
+        "name": "Zamazenta",
+        "image": "images/0889-zamazenta.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0890",
+        "name": "Eternatus",
+        "image": "images/0890-eternatus.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0891",
+        "name": "Kubfu",
+        "image": "images/0891-kubfu.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0892",
+        "name": "Urshifu",
+        "image": "images/0892-urshifu.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0893",
+        "name": "Zarude",
+        "image": "images/0893-zarude.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0894",
+        "name": "Regieleki",
+        "image": "images/0894-regieleki.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0895",
+        "name": "Regidrago",
+        "image": "images/0895-regidrago.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0896",
+        "name": "Glastrier",
+        "image": "images/0896-glastrier.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0897",
+        "name": "Spectrier",
+        "image": "images/0897-spectrier.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0898",
+        "name": "Calyrex",
+        "image": "images/0898-calyrex.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0899",
+        "name": "Wyrdeer",
+        "image": "images/0899-wyrdeer.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0900",
+        "name": "Kleavor",
+        "image": "images/0900-kleavor.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0901",
+        "name": "Ursaluna",
+        "image": "images/0901-ursaluna.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0902",
+        "name": "Basculegion",
+        "image": "images/0902-basculegion.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0903",
+        "name": "Sneasler",
+        "image": "images/0903-sneasler.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0904",
+        "name": "Overqwil",
+        "image": "images/0904-overqwil.jpg",
+        "gen": "Gen 8"
+    },
+    {
+        "id": "0905",
+        "name": "Enamorus",
+        "image": "images/0905-enamorus.jpg",
+        "gen": "Gen 8"
     }
+    
+
+    
+    
 ]
